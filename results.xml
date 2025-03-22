@@ -1,32 +1,1250 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="20.68285099999979">
-<testsuite name="TC_01_productPage.test.js" timestamp="2023-07-31T17:11:47.753Z" hostname="Chrome" tests="5" failures="0" skipped="0" time="27.314" errors="0">
-<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.js" time="6.808">
+<testsuites id="" name="" tests="40" failures="32" skipped="4" errors="0" time="39.52019399999827">
+<testsuite name="TC_01_productPage.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Chrome" tests="5" failures="3" skipped="0" time="24.572" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.js" time="0.913">
+<failure message="TC_01_productPage.test.js:57:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_01_productPage.test.js:57:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.js" time="4.043">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.js" time="0.926">
+<failure message="TC_01_productPage.test.js:167:7 Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" type="FAILURE">
+<![CDATA[  [Chrome] › TC_01_productPage.test.js:167:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Click on the "About" side nav bar link to check whether user is navigated to sauce labs page 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.js" time="5.699">
+<testcase name="Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.js" time="9.304">
 </testcase>
-<testcase name="Verify All Social Channel Links › Click on LinkedIn link and check whether user is navigated to LinkedIn page" classname="TC_01_productPage.test.js" time="4.288">
+<testcase name="Verify All Social Channel Links › Click on LinkedIn link and check whether user is navigated to LinkedIn page" classname="TC_01_productPage.test.js" time="4.414">
 </testcase>
-<testcase name="Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page" classname="TC_01_productPage.test.js" time="6.476">
+<testcase name="Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page" classname="TC_01_productPage.test.js" time="9.015">
+<failure message="TC_01_productPage.test.js:229:6 Click on Twitter link and check whether user is navigated to twitter page" type="FAILURE">
+<![CDATA[  [Chrome] › TC_01_productPage.test.js:229:6 › Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "https://twitter.com/saucelabs"
+    Received: "https://x.com/saucelabs"
+
+      245 | 		await newPage.waitForLoadState('domcontentloaded')
+      246 | 		await newPage.waitForLoadState('networkidle')
+    > 247 | 		expect(newPage.url()).toBe(twitterUrl)
+          | 		                      ^
+      248 | 	})
+      249 | })
+      250 |
+
+        at D:\dsa\plw\Playwright-JavaScript-SauceDemo\tests\TC_01_productPage.test.js:247:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-2.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-3.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-4.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-5.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\test-failed-6.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="TC_02_checkoutWorkflow.test.js" timestamp="2023-07-31T17:11:47.753Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="6.625" errors="0">
-<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.js" time="6.625">
+<testsuite name="TC_02_checkoutWorkflow.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="5.238" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.js" time="5.238">
+<failure message="TC_02_checkoutWorkflow.test.js:47:6 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_02_checkoutWorkflow.test.js:47:6 › Login as a standard user to complete the checkout workflow › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="TC_03_checkoutWithSUandPGU.test.js" timestamp="2023-07-31T17:11:47.753Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="18.825" errors="0">
-<testcase name="Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user" classname="TC_03_checkoutWithSUandPGU.test.js" time="18.825">
+<testsuite name="TC_03_checkoutWithSUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="5.229" errors="0">
+<testcase name="Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user" classname="TC_03_checkoutWithSUandPGU.test.js" time="5.229">
+<failure message="TC_03_checkoutWithSUandPGU.test.js:91:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_03_checkoutWithSUandPGU.test.js:91:7 › Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="TC_04_checkoutWithPUandPGU.test.js" timestamp="2023-07-31T17:11:47.753Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="17.032" errors="0">
-<testcase name="Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user" classname="TC_04_checkoutWithPUandPGU.test.js" time="17.032">
+<testsuite name="TC_04_checkoutWithPUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="1.057" errors="0">
+<testcase name="Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user" classname="TC_04_checkoutWithPUandPGU.test.js" time="1.057">
+<failure message="TC_04_checkoutWithPUandPGU.test.js:53:6 Login to App as a problem user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_04_checkoutWithPUandPGU.test.js:53:6 › Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="TC_05_checkoutWithPGUandSU.test.js" timestamp="2023-07-31T17:11:47.753Z" hostname="Chrome" tests="2" failures="0" skipped="0" time="10.718" errors="0">
-<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user" classname="TC_05_checkoutWithPGUandSU.test.js" time="1.376">
+<testsuite name="TC_05_checkoutWithPGUandSU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Chrome" tests="2" failures="2" skipped="0" time="1.494" errors="0">
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.744">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:55:7 Login to App as a Locked out user user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_05_checkoutWithPGUandSU.test.js:55:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Chrome\trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user" classname="TC_05_checkoutWithPGUandSU.test.js" time="9.342">
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.75">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:74:7 Login to App as a Performance glitch user" type="FAILURE">
+<![CDATA[  [Chrome] › TC_05_checkoutWithPGUandSU.test.js:74:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Firefox" tests="5" failures="3" skipped="2" time="0.282" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.js" time="0.101">
+<failure message="TC_01_productPage.test.js:57:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_01_productPage.test.js:57:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.js" time="0.081">
+<failure message="TC_01_productPage.test.js:167:7 Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" type="FAILURE">
+<![CDATA[  [Firefox] › TC_01_productPage.test.js:167:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Click on the "About" side nav bar link to check whether user is navigated to sauce labs page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.js" time="0.1">
+<failure message="TC_01_productPage.test.js:187:6 Click on Facebook link and check whether user is navigated to Facebook page" type="FAILURE">
+<![CDATA[  [Firefox] › TC_01_productPage.test.js:187:6 › Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on LinkedIn link and check whether user is navigated to LinkedIn page" classname="TC_01_productPage.test.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page" classname="TC_01_productPage.test.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="0.077" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.js" time="0.077">
+<failure message="TC_02_checkoutWorkflow.test.js:47:6 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_02_checkoutWorkflow.test.js:47:6 › Login as a standard user to complete the checkout workflow › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_03_checkoutWithSUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="0.051" errors="0">
+<testcase name="Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user" classname="TC_03_checkoutWithSUandPGU.test.js" time="0.051">
+<failure message="TC_03_checkoutWithSUandPGU.test.js:91:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_03_checkoutWithSUandPGU.test.js:91:7 › Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_04_checkoutWithPUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="0.049" errors="0">
+<testcase name="Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user" classname="TC_04_checkoutWithPUandPGU.test.js" time="0.049">
+<failure message="TC_04_checkoutWithPUandPGU.test.js:53:6 Login to App as a problem user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_04_checkoutWithPUandPGU.test.js:53:6 › Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_05_checkoutWithPGUandSU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Firefox" tests="2" failures="2" skipped="0" time="0.095" errors="0">
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.046">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:55:7 Login to App as a Locked out user user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_05_checkoutWithPGUandSU.test.js:55:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.049">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:74:7 Login to App as a Performance glitch user" type="FAILURE">
+<![CDATA[  [Firefox] › TC_05_checkoutWithPGUandSU.test.js:74:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\firefox-1419\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Safari" tests="5" failures="3" skipped="2" time="0.161" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.js" time="0.054">
+<failure message="TC_01_productPage.test.js:57:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Safari] › TC_01_productPage.test.js:57:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.js" time="0.049">
+<failure message="TC_01_productPage.test.js:167:7 Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" type="FAILURE">
+<![CDATA[  [Safari] › TC_01_productPage.test.js:167:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Click on the "About" side nav bar link to check whether user is navigated to sauce labs page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.js" time="0.058">
+<failure message="TC_01_productPage.test.js:187:6 Click on Facebook link and check whether user is navigated to Facebook page" type="FAILURE">
+<![CDATA[  [Safari] › TC_01_productPage.test.js:187:6 › Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-e35c0-heck-whether-user-is-navigated-to-Facebook-page-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on LinkedIn link and check whether user is navigated to LinkedIn page" classname="TC_01_productPage.test.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page" classname="TC_01_productPage.test.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Safari" tests="1" failures="1" skipped="0" time="0.056" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.js" time="0.056">
+<failure message="TC_02_checkoutWorkflow.test.js:47:6 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Safari] › TC_02_checkoutWorkflow.test.js:47:6 › Login as a standard user to complete the checkout workflow › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_03_checkoutWithSUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Safari" tests="1" failures="1" skipped="0" time="0.056" errors="0">
+<testcase name="Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user" classname="TC_03_checkoutWithSUandPGU.test.js" time="0.056">
+<failure message="TC_03_checkoutWithSUandPGU.test.js:91:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Safari] › TC_03_checkoutWithSUandPGU.test.js:91:7 › Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_04_checkoutWithPUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Safari" tests="1" failures="1" skipped="0" time="0.054" errors="0">
+<testcase name="Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user" classname="TC_04_checkoutWithPUandPGU.test.js" time="0.054">
+<failure message="TC_04_checkoutWithPUandPGU.test.js:53:6 Login to App as a problem user" type="FAILURE">
+<![CDATA[  [Safari] › TC_04_checkoutWithPUandPGU.test.js:53:6 › Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_05_checkoutWithPGUandSU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Safari" tests="2" failures="2" skipped="0" time="0.108" errors="0">
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.053">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:55:7 Login to App as a Locked out user user" type="FAILURE">
+<![CDATA[  [Safari] › TC_05_checkoutWithPGUandSU.test.js:55:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.055">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:74:7 Login to App as a Performance glitch user" type="FAILURE">
+<![CDATA[  [Safari] › TC_05_checkoutWithPGUandSU.test.js:74:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\webkit-1869\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Safari\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Safari\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Safari\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_01_productPage.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Edge" tests="5" failures="3" skipped="0" time="26.639" errors="0">
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user" classname="TC_01_productPage.test.js" time="1.003">
+<failure message="TC_01_productPage.test.js:57:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Edge] › TC_01_productPage.test.js:57:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-be920-the-application-Login-to-App-as-a-standard-user-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="@smoke: Login as a standard user to verify the products page and logout from the application › Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" classname="TC_01_productPage.test.js" time="1.112">
+<failure message="TC_01_productPage.test.js:167:7 Click on the &quot;About&quot; side nav bar link to check whether user is navigated to sauce labs page" type="FAILURE">
+<![CDATA[  [Edge] › TC_01_productPage.test.js:167:7 › @smoke: Login as a standard user to verify the products page and logout from the application › Click on the "About" side nav bar link to check whether user is navigated to sauce labs page 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage--smoke-Login-as-a-standard-u-1c23d-ck-whether-user-is-navigated-to-sauce-labs-page-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Facebook link and check whether user is navigated to Facebook page" classname="TC_01_productPage.test.js" time="4.71">
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on LinkedIn link and check whether user is navigated to LinkedIn page" classname="TC_01_productPage.test.js" time="10.535">
+</testcase>
+<testcase name="Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page" classname="TC_01_productPage.test.js" time="9.279">
+<failure message="TC_01_productPage.test.js:229:6 Click on Twitter link and check whether user is navigated to twitter page" type="FAILURE">
+<![CDATA[  [Edge] › TC_01_productPage.test.js:229:6 › Verify All Social Channel Links › Click on Twitter link and check whether user is navigated to twitter page 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "https://twitter.com/saucelabs"
+    Received: "https://x.com/saucelabs"
+
+      245 | 		await newPage.waitForLoadState('domcontentloaded')
+      246 | 		await newPage.waitForLoadState('networkidle')
+    > 247 | 		expect(newPage.url()).toBe(twitterUrl)
+          | 		                      ^
+      248 | 	})
+      249 | })
+      250 |
+
+        at D:\dsa\plw\Playwright-JavaScript-SauceDemo\tests\TC_01_productPage.test.js:247:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-2.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-3.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-4.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-5.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\test-failed-6.png]]
+
+[[ATTACHMENT|..\test-results\TC_01_productPage-Verify-All-Social-Channel-Li-a9fac-check-whether-user-is-navigated-to-twitter-page-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_02_checkoutWorkflow.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Edge" tests="1" failures="1" skipped="0" time="1.093" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Login to App as a standard user" classname="TC_02_checkoutWorkflow.test.js" time="1.093">
+<failure message="TC_02_checkoutWorkflow.test.js:47:6 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Edge] › TC_02_checkoutWorkflow.test.js:47:6 › Login as a standard user to complete the checkout workflow › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_02_checkoutWorkflow-Login-as-a-standard-use-e6fec-eckout-workflow-Login-to-App-as-a-standard-user-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_03_checkoutWithSUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Edge" tests="1" failures="1" skipped="0" time="1.068" errors="0">
+<testcase name="Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user" classname="TC_03_checkoutWithSUandPGU.test.js" time="1.068">
+<failure message="TC_03_checkoutWithSUandPGU.test.js:91:7 Login to App as a standard user" type="FAILURE">
+<![CDATA[  [Edge] › TC_03_checkoutWithSUandPGU.test.js:91:7 › Login as a Standard User to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a standard user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_03_checkoutWithSUandPGU-Login-as-a-Standard-af5ed-nce-Glitch-User-Login-to-App-as-a-standard-user-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_04_checkoutWithPUandPGU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Edge" tests="1" failures="1" skipped="0" time="1.351" errors="0">
+<testcase name="Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user" classname="TC_04_checkoutWithPUandPGU.test.js" time="1.351">
+<failure message="TC_04_checkoutWithPUandPGU.test.js:53:6 Login to App as a problem user" type="FAILURE">
+<![CDATA[  [Edge] › TC_04_checkoutWithPUandPGU.test.js:53:6 › Login as a Problem user to select a product item and then complete the checkout workflow with Performance Glitch User › Login to App as a problem user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_04_checkoutWithPUandPGU-Login-as-a-Problem--09621-ance-Glitch-User-Login-to-App-as-a-problem-user-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TC_05_checkoutWithPGUandSU.test.js" timestamp="2025-03-22T12:02:15.215Z" hostname="Edge" tests="2" failures="2" skipped="0" time="1.88" errors="0">
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.926">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:55:7 Login to App as a Locked out user user" type="FAILURE">
+<![CDATA[  [Edge] › TC_05_checkoutWithPGUandSU.test.js:55:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Locked out user user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-fc71a-ard-user-Login-to-App-as-a-Locked-out-user-user-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user" classname="TC_05_checkoutWithPGUandSU.test.js" time="0.954">
+<failure message="TC_05_checkoutWithPGUandSU.test.js:74:7 Login to App as a Performance glitch user" type="FAILURE">
+<![CDATA[  [Edge] › TC_05_checkoutWithPGUandSU.test.js:74:7 › Login as a Locked out user and Performance glitch user and complete the checkout workflow with Standard user › Login to App as a Performance glitch user 
+
+    Error: browserContext.newPage: Executable doesn't exist at C:\Users\Admin\AppData\Local\ms-playwright\ffmpeg-1009\ffmpeg-win64.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\TC_05_checkoutWithPGUandSU-Login-as-a-Locked-o-2e82c--user-Login-to-App-as-a-Performance-glitch-user-Edge\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
