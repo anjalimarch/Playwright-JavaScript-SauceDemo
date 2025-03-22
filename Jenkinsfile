@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/anjalimarch/Playwright-JavaScript-SauceDemo.git'
+                git branch: 'main', url: 'https://github.com/anjalimarch/Playwright-JavaScript-SauceDemo.git'
             }
         }
         stage('Install Dependencies') {
@@ -21,15 +21,14 @@ pipeline {
                 sh 'npx playwright test'
             }
         }
-        stage('Publish Test Report') {
-            steps {
-                junit '**/test-results.xml' // Ensure Playwright outputs JUnit-style results
+    }
+   post {
+    always {
+        script {
+            node {
+                archiveArtifacts artifacts: '**/test-results/**', fingerprint: true
             }
         }
     }
-    post {
-        always {
-            archiveArtifacts artifacts: '**/test-results/**', fingerprint: true
-        }
-    }
+}
 }
